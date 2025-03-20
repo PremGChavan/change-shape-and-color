@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fadeIn 2s ease; /* Smooth animation when the page loads */
+}
+
+button{
+    background-color: #d9ddcc;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#container {
+    text-align: center;
+    background: rgba(70, 179, 222, 0.2); /* Semi-transparent white */
+    padding: 50px; 
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(12px); 
+    backdrop-filter: blur(12px); /* Standard property for compatibility */
+    width: 500px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+#container:hover {
+    transform: scale(1.05);
+}
+
+#shape {
+    width: 250px; /* Increased size */
+    height: 250px;
+    background-color: lightblue;
+    margin: 30px auto;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+#buttons {
+    margin-top: 2rem;
+}
+
+button {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #b8c4a0;
+}
+
+
+.square {
+    border-radius: 0;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.2px solid red; /* Use CSS triangle for triangle shape */
+}
+
+/* Define styles for other shapes as needed */
