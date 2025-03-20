@@ -2,6 +2,10 @@
 
 This project allows users to interactively change the shape and color of a graphical element on the screen. It's a simple and fun way to demonstrate dynamic user interface changes using HTML, CSS, and JavaScript.
 
+## Hosted Link
+
+The project is hosted on GitHub Pages. You can access it [here](https://premgchavan.github.io/change-shape-and-color/).
+
 ## Features
 
 1. **Change Color Button:** Clicking this button will change the color of the graphical element displayed on the screen.
@@ -22,9 +26,6 @@ This project allows users to interactively change the shape and color of a graph
 3. Click the "Change Color" button to see the color of the graphical element change.
 4. Click the "Change Shapes" button to see the shape of the graphical element change.
 
-## Hosted Link
-
-The project is hosted on GitHub Pages. You can access it [here](https://maverickcod.github.io/change-color-shape/).
 
 ## Project Structure
 
@@ -32,6 +33,4 @@ The project is hosted on GitHub Pages. You can access it [here](https://maverick
 - `style.css`: Contains the CSS styling for the project.
 - `script.js`: Contains the JavaScript code for handling user interactions and changing the shape and color of the graphical element.
 
-## Contribution
 
-Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
